@@ -3,7 +3,6 @@
   "private": false,
   "version": "0.0.16",
   "main": "./src/main.jsx",
-  "type": "module",
   "scripts": {
     "roll": "git add . && git commit -m 'update'; npm version patch && npm publish --access public && git push"
   },
