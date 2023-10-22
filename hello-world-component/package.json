@@ -1,0 +1,14 @@
+{
+  "name": "@dhanur350/hello-world-component",
+  "private": false,
+  "version": "0.0.10",
+  "main": "./src/main.jsx",
+  "type": "module",
+  "scripts": {
+    "roll": "git add . && git commit -m 'update'; npm version patch && npm publish --access public && git push"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
