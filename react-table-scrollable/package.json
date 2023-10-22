@@ -1,14 +1,10 @@
 {
   "name": "@dhanur350/react-table-scrollable",
   "private": false,
-  "version": "0.0.15",
+  "version": "0.0.16",
   "main": "./src/main.jsx",
   "type": "module",
   "scripts": {
     "roll": "git add . && git commit -m 'update'; npm version patch && npm publish --access public && git push"
-  },
-  "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
   }
 }
