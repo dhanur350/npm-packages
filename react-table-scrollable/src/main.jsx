@@ -1,9 +1,8 @@
 import './ReactTable.scss';
 import React, { useMemo } from 'react'
-import classNames from 'classnames';
 import { Loading } from "./components";
 
-function ReactTable({
+export default function ReactTable({
   tableHeight,
   isScrollable,
   tableHeaders,
@@ -45,9 +44,7 @@ function ReactTable({
 
   return (
 
-    <div className={classNames(['table-container'], {
-      "table-scroll": isScrollable
-    })} style={{ height: tableHeight }}>
+    <div className={`table-container ${isScrollable && "table-scroll"}`} style={{ height: tableHeight }}>
       <div className="table-header">{tableHeaders.map(renderTableHeader)}</div>
       {isLoading ?
         <Loading /> :
@@ -55,5 +52,3 @@ function ReactTable({
     </div>
   )
 }
-
-export default ReactTable
