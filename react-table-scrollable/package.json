@@ -6,5 +6,9 @@
   "type": "module",
   "scripts": {
     "roll": "git add . && git commit -m 'update'; npm version patch && npm publish --access public && git push"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

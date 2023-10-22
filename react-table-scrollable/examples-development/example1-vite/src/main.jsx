@@ -1,15 +1,6 @@
+// eslint-disable-next-line no-unused-vars
+import React from 'react'
 import ReactDOM from 'react-dom/client'
-import ReactTable from "@dhanur350/react-table-scrollable"
-import ReactTable from "@dhanur350/react-table-scrollable"
-import { managementTableHeaders, tableData } from './data'
-
-const MyTable = () => {
-  return <ReactTable
-    isScrollable={true}
-    tableHeaders={managementTableHeaders}
-    tableData={tableData}
-    tableHeight={"20rem"}
-  />
-}
+import MyTable from './MyTable'
 
 ReactDOM.createRoot(document.getElementById('root')).render(<MyTable />)
