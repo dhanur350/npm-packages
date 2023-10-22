@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@dhanur350/react-table-scrollable": "file:../..",
+    "@dhanur350/react-table-scrollable": "^0.0.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -22,6 +22,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "sass": "^1.69.4",
     "vite": "^4.4.5"
   }
 }
