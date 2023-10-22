@@ -1,7 +1,7 @@
 {
   "name": "@dhanur350/react-table-scrollable",
   "private": false,
-  "version": "0.0.10",
+  "version": "0.0.11",
   "main": "./src/main.jsx",
   "type": "module",
   "scripts": {
