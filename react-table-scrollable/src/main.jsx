@@ -1,5 +1,5 @@
 import './ReactTable.css';
-import React, { useMemo, useState } from 'react'
+import React, { useMemo, useState } from 'react';
 import { Loading } from "./components";
 
 export default function ReactTable({
