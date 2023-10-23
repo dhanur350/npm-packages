@@ -1,7 +1,7 @@
 {
   "name": "@dhanur350/react-table-scrollable",
   "private": false,
-  "version": "0.0.19",
+  "version": "0.0.20",
   "main": "./src/main.jsx",
   "scripts": {
     "roll": "git add . && git commit -m 'update'; npm version patch && npm publish --access public && git push"
