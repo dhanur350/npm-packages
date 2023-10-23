@@ -1,4 +1,4 @@
-import './ReactTable.scss';
+import './ReactTable.css';
 import React, { useMemo, useState } from 'react'
 import { Loading } from "./components";
 
@@ -7,7 +7,8 @@ export default function ReactTable({
   isScrollable,
   tableHeaders,
   tableData,
-  isLoading }) {
+  isLoading 
+}) {
 
   const allTablekeys = useMemo(() => {
     return tableData?.reduce((keys, item) => {
