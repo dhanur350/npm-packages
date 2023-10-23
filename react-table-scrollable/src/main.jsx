@@ -1,6 +1,6 @@
 import './ReactTable.css';
 import { useMemo } from 'react';
-import { Loading } from "./components";
+import Loading from "./components/Loading/Loading";
 
 export default function ReactTable({
   tableHeight,
