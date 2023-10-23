@@ -1,5 +1,5 @@
 import './ReactTable.css';
-import React, { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { Loading } from "./components";
 
 export default function ReactTable({
@@ -50,17 +50,6 @@ export default function ReactTable({
       {isLoading ?
         <Loading /> :
         <div className="table-body">{tableData.map(renderTableBody)}</div>}
-    </div>
-  )
-}
-
-export const Counter = () => {
-  const [counter, setCounter] = useState(1)
-
-  return (
-    <div>
-      <h1>Counter App</h1>
-      <button onClick={() => setCounter(counter + 1)}>{counter}</button>
     </div>
   )
 }

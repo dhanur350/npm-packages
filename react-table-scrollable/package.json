@@ -1,7 +1,7 @@
 {
   "name": "@dhanur350/react-table-scrollable",
   "private": false,
-  "version": "0.0.22",
+  "version": "0.0.23",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack --mode production",

@@ -1,18 +1,15 @@
-import React from 'react'
-import ReactTable, { Counter } from "@dhanur350/react-table-scrollable"
-import { managementTableHeaders, tableData } from './data'
+import React from "react";
+import ReactTable from "@dhanur350/react-table-scrollable";
+import { managementTableHeaders, tableData } from "./data";
 
-const MyTable = () => {
-	return <>
-
-		<ReactTable
-			isScrollable={true}
-			tableHeaders={managementTableHeaders}
-			tableData={tableData}
-			tableHeight={"20rem"}
-		/>
-
-		<Counter />
-	</>
+function MyTable() {
+  return (
+    <ReactTable
+      isScrollable={true}
+      tableHeaders={managementTableHeaders}
+      tableData={tableData}
+      tableHeight={"20rem"}
+    />
+  );
 }
-export default MyTable
+export default MyTable;
